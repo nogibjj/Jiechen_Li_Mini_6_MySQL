@@ -1,6 +1,6 @@
 [![CI](https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/actions/workflows/ci.yml)
 
-## Jiechen_Li_Mini_6_External_Database
+## Jiechen_Li_Mini_6_MySQL
 
 ### Purpose
 
@@ -162,4 +162,4 @@ Please check ``sql_results_plot.py`` for details.
 
 ### Reference
 
-Please click <a href="https://github.com/nogibjj/sqlite-lab" target="_blank">here</a> to see the template of this repo.
+Please click <a href="https://github.com/nogibjj/Jiechen_Li_Mini_2_Pandas.git" target="_blank">here</a> to see the template of this repo.
