@@ -29,7 +29,7 @@ SET GLOBAL local_infile=1;
 show tables;
 
 LOAD DATA
-    LOCAL INFILE '/Users/castnut/Desktop/706_Data_Engineering/mini_6/Jiechen_Li_Mini_6_External_Database/School_Attendance_by_Student_Group_and_District__2021-2022.csv' INTO
+    LOCAL INFILE '/Users/castnut/Desktop/706_Data_Engineering/mini_6/Jiechen_Li_Mini_6_MySQL/School_Attendance_by_Student_Group_and_District__2021-2022.csv' INTO
 TABLE
     School_Attendance_Table FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 

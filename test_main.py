@@ -35,7 +35,7 @@ def test_insert_and_read_data():
         conn_1,
         "test_table",
         (
-            "https://github.com/nogibjj/Jiechen_Li_Mini_6_External_Database/"
+            "https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/"
             "raw/main/School_Attendance_by_Student_Group_and_District__2021-2022.csv"
         ),
     )

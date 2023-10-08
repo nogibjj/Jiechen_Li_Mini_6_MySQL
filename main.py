@@ -24,7 +24,7 @@ def insert_data(conn, table_name, csv_file):
     Insert data from a CSV file into the specified table.
     """
     df = pd.read_csv(
-        "https://github.com/nogibjj/Jiechen_Li_Mini_6_External_Database/"
+        "https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/"
         "raw/main/School_Attendance_by_Student_Group_and_District__2021-2022.csv"
     )
     df.to_sql(table_name, conn, if_exists="replace", index=False)
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         conn,
         "school_attendance_db",
         (
-            "https://github.com/nogibjj/Jiechen_Li_Mini_6_External_Database/"
+            "https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/"
             "raw/main/School_Attendance_by_Student_Group_and_District__2021-2022.csv"
         ),
     )

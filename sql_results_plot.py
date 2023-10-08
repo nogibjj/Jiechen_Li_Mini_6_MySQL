@@ -8,7 +8,7 @@ color_2021_2022 = "yellow"
 
 # Define the necessary variables
 school_attendance_df = pd.read_csv(
-    "https://github.com/nogibjj/Jiechen_Li_Mini_6_External_Database/"
+    "https://github.com/nogibjj/Jiechen_Li_Mini_6_MySQL/"
     "raw/main/School_Attendance_by_Student_Group_and_District__2021-2022.csv"
 )
 

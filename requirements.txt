@@ -8,3 +8,10 @@ pytest-cov==4.0.
 requests
 #rust based linter
 ruff==0.0.284
+
+#add pandas, matplotlib 
+pandas
+#scikit-learn
+matplotlib.pyplot
+numpy
+sqlite3
